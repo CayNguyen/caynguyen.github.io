@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding:0;
+}
+ol,ul{
+    list-style: none;
+}
+img{
+    border: none;
+    vertical-align: none;
+}
+div#layout{
+    border: 1px solid black;
+    margin: 20px auto;
+    width: 900px;
+    height: 991px;
+}
+/*style layout*/
+div#header{
+    padding: 10px;
+}
+div.hLeft{
+    float: left;
+}
+div.hLeft h1{
+    margin-bottom: 10px;
+}
+div.hRight{
+    float: Right;
+}
+div.hRight ul.hButton{
+    text-align: right ;
+    margin-bottom: 37px;
+}
+div.hRight ul.hButton li{
+    display: inline;
+}
+div.hRight ul.hNav li{
+    display: inline;
+    border-right: 1px solid blue;
+    padding: 0 5px;
+}
+div.hRight ul.hNav li.last{
+    border-right: none;
+    padding: 0;
+}
+/*Style Header*/
+div#gNav{
+    clear: both;
+    position: relative;
+    top: 10px;
+    margin-bottom: 10px;
+}
+div#gNav ul{
+    background: url("../images/bg_gnav.gif") repeat-x;
+    border: 1px solid #000;
+    height: 20px;
+    padding: 12px 0;
+}
+div#gNav ul li{
+    display: inline;
+    border-right: 1px solid #fff;
+    padding: 10px 10px;
+}
+div#gNav ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+div#gNav ul li a:hover{
+    color: yellow;
+}
+div#gNav ul li.last{
+    border-right: none;
+    padding-right: 0;
+}
+/*style Global navigation*/
+div#pageBody{
+    padding: 20px 10px;
+}
+div#content{
+    float: left;
+    width: 620px;
+}
+div#content h2{
+    color: gray;
+    border-bottom: 1px solid #666666;
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+div#content div.newProduct p{
+    float: left;
+    width: 241px;
+}
+div#content div.newProduct div {
+    float: right;
+    width: 350px;
+}
+div#content div.newProduct div h3{
+    color: blue;
+    margin-bottom: 10px;
+}
+div#content div.newProduct div p{
+    width: 350px;
+}
+div#content div.newProduct{
+    zoom: 1;
+}
+div#content div.newProduct:after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+div#content ul.thumbList{
+    background: aliceblue;
+    border: 1px solid #ebeaea;
+    padding: 10px 25px;
+    margin-bottom: 40px;
+    clear: both;
+}
+div#content ul.thumbList li{
+    display: inline;
+    padding-right: 10px;
+}
+div#content ul.thumbList li.last{
+    padding-right: 0px;
+}
+div#content dl.news dd{
+    border-bottom: 1px dotted #000;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+div#content dl.news{
+    padding: 10px 0px 40px 10px;
+}
+div#content dl.news dd.last{
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+div#content dl.news dd a{
+    text-decoration: none;
+}
+div#content dl.news dd a:hover{
+    color: red;
+}
+div#content p.banner{
+    text-align: center;
+}
+div#sidebar{
+    float: right;
+    width: 230px;
+}
+div#sidebar h2{
+    color: gray;
+    border-bottom: 1px solid #666666;
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+div#sidebar ul.linkList{
+    padding: 0 0 25px 10px;
+}
+div#sidebar ul.linkList li {
+    background: url("../images/ico_arrow.gif") no-repeat left center;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+div#sidebar ul.linkList li a{
+    color: blue;
+    text-decoration: none;
+}
+div#sidebar ul.linkList a:hover{
+    color: red;
+}
+div#sidebar ul.bannerList {
+    padding-top: 10px;
+}
+div#sidebar ul.bannerList li{
+    padding-bottom: 5px;
+}
+/*style pageBody*/
+div#footer{
+    border-top: 1px solid gray;
+    padding: 10px;
+    clear: both;
+}
+div#footer div.fLeft{
+    float: left;
+    width: 340px;
+    height: 130px;
+}
+div#footer div.fRight{
+    float: right;
+    width: 500px;
+    text-align: right;
+}
+div#footer div.fRight ul{
+    margin-bottom: 10px;
+}
+
+div#footer div.fRight ul li{
+    display: inline;
+    border-right: 1px solid blue;
+    padding: 0 5px;
+}
+div#footer div.fRight ul li.last{
+     border-right: none;
+     padding: 0;
+    margin-bottom: 10px;
+ }
+div#footer {
+    zoom: 1;
+}
+div#footer:after{
+    clear: both;
+    content: ".";
+    display: block;
+    line-height: 0;
+    height: 0;
+    visibility: hidden;
+}

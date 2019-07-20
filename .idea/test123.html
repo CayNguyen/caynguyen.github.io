@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trâu Việt Nam</title>
+</head>
+<body>
+    <script language="JavaScript">
+        var website='Trâu Việt Nam';
+        document.write(website);
+        var t=prompt("Nhập tên của bạn");
+        alert(t);
+        confirm("Do you like js?")
+        var number=parseInt(prompt("nhập số cần kiểm tra chẵn lẻ"));
+        var mod=number%2;
+        switch (mod) {
+            case 0: {
+                document.write(number+"là số chẵn");
+                break;
+            }
+            case 1: {
+                document.write(number+"là số lẻ");
+                break;
+            }
+            default: {
+                document.write("kí tự bạn nhập không phải số");
+            }
+        }
+    </script>
+    <input type="button" onclick="alert('xin chào các bạn')" value="Click me">
+</body>
+</html>
